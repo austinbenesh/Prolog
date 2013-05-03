@@ -1,8 +1,5 @@
 and(A, B) :- A, B.
 
-or(A, _) :- A.
-or(_, B) :- B.
-
 equ(A, B) :- A = B.
 
 nand(A, _) :- \+ A.
